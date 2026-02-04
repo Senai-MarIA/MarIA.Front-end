@@ -1,0 +1,41 @@
+@import url(../../../index.css);
+
+.questions-space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 158px;
+    background-color:  var(--color-purple);
+    gap: 102px;
+}
+
+.content-up-questions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 484px;
+    color: var(--color-neutral-white);
+    gap: 17px;
+    
+}
+ 
+.content-up-questions h2 {
+    font-size: 38px;
+    font-weight: 200;
+}
+
+.content-up-questions p {
+    color: var(--color-neutral-gray);
+    text-align: center;
+    font-size: 15px;
+}
+
+.content-up-questions h2 span{
+    color: var(--color-pink);
+}
+
+@media(max-width: 430px){
+    .content-up-questions{
+        width: 350px;
+    }
+}
