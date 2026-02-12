@@ -39,11 +39,20 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
+        image-rendering: pixelated; 
+
 }
 
 .group-img img {
     width: 200px;
     height: 200px;
+        image-rendering: pixelated; 
+        transition: 0.3s;
+
+}
+
+.group-img img:hover {
+    transform: scale(1.1);
 }
 
 
