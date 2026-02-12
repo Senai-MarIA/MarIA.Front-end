@@ -50,6 +50,12 @@ main {
     height: 60px;
     border-radius: 30px 3px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonMain a:hover{
+    color: var(--color-light-pink);
+    background-color: var(--color-secondary-purple);
 }
 
 .buttonMain {
