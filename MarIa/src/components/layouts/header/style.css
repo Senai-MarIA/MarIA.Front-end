@@ -17,8 +17,39 @@ header {
     background-color: var(--color-purple);
     height: 90px;
 }
-#nav-menu-list {
+header h1 {
+    transition: 0.3s;
     
+}
+
+header h1:hover {
+    color: var(--color-light-pink);
+    transform: translate(0px, -10px);
+    box-shadow: 0px 2px 6px 0px var(--color-neutral-white);
+}
+
+header h1 span{
+    transition: 0.3s;
+}
+
+header img {
+    transition: 0.3s;
+}
+
+header img:hover {
+    transform: scale(1.2);
+}
+header h1:hover span {
+    color: var(--color-neutral-white);
+}
+#nav-menu-list ul li a{
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#nav-menu-list ul li a:hover{
+    color: var(--color-light-pink);
+    transform: scale(1.2);
 }
 
 
