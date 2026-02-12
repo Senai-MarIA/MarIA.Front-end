@@ -22,6 +22,11 @@
     min-width: 100px;
     top: -50px;
     left: -50px;
+    transition: 0.3s;
+}
+
+.star-decoration:hover {
+    transform: translate(800px, 10px);
 }
 
 .content-info {
@@ -34,9 +39,12 @@
     width: 100%;
     padding: 60px 80px;
     box-sizing: border-box;
-
+    transition: 0.3s;
 }
 
+.content-info:hover{
+    transform: scale(1.2);
+}
 
 
 .content-info h2 {
