@@ -28,6 +28,7 @@
     width: 43%;
     left: 7%;
     bottom: 8%;
+    transition: 0.3s;
 }
 
 .ballon {
@@ -36,8 +37,37 @@
     width: 43%;
     left: 38%;
     bottom: 30%;
+    transition: 0.5s;
+
 }
 
+.ballon:hover{
+    animation-name: voar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.MariaHabla:hover {
+    animation-name: voar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes voar{
+    0%{
+            transform: translate(0px, 10px);
+    }
+   
+    50%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform:translate(0px,10px)
+    }
+}
 @media (max-width: 430px) {
     .MariaHabla {
         width: 50%;
