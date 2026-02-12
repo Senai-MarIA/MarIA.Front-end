@@ -9,4 +9,10 @@
     border-radius: 25px;
     border: 1px solid #BC12B05E;
     box-shadow: 0px 7px 11px 0px ;
+    transition: 0.3s;
+}
+
+.doubleCard:hover {
+    transform: translate(10px, -10px);
+    box-shadow: 0px 2px 10px 1px var(--color-neutral-white);
 }
