@@ -43,14 +43,14 @@
 
 .ballon:hover{
     animation-name: voar;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .MariaHabla:hover {
     animation-name: voar;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

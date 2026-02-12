@@ -75,26 +75,9 @@
                 transform: scale(1.2);
 
     }
-    20%{
-                transform: scale(1.4);
+    
 
-    }
-    30%{
-                transform: scale(1.6);
-
-    }
-    40%{
-                transform: scale(1.8);
-
-    }
-    70%{
-                transform: scale(1.6);
-
-    }
-    80%{
-                transform: scale(1.4);
-
-    }
+    
     90%{
                 transform: scale(1.2);
 
