@@ -13,6 +13,14 @@
     position: relative;
     width: 100%;
     max-width: 911px;
+    transition: 0.3s;
+}
+
+.aboutus-wrapper:hover .star-decoration{
+    animation-name: circulo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .star-decoration {
@@ -22,12 +30,10 @@
     min-width: 100px;
     top: -50px;
     left: -50px;
-    transition: 0.3s;
+    transition: 5s;
 }
 
-.star-decoration:hover {
-    transform: translate(800px, 10px);
-}
+
 
 .content-info {
     display: flex;
@@ -43,7 +49,12 @@
 }
 
 .content-info:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    animation-name: balanço;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear  ;
+    
 }
 
 
@@ -60,6 +71,66 @@
     font-family: var(--font-family-poppins);
     font-size: 24px;
     text-align: justify;
+
+}
+
+@keyframes circulo {
+    0%{
+        transform: scale(1.0);
+  
+    }
+    10%{
+                transform: scale(1.2);
+
+    }
+    20%{
+                transform: scale(1.4);
+
+    }
+    30%{
+                transform: scale(1.6);
+
+    }
+    40%{
+                transform: scale(1.8);
+
+    }
+    70%{
+                transform: scale(1.6);
+
+    }
+    80%{
+                transform: scale(1.4);
+
+    }
+    90%{
+                transform: scale(1.2);
+
+    }
+    100%{
+        transform: scale(1.0);
+
+    }
+}
+
+
+@keyframes balanço{
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50%{
+        transform: rotate(5deg);
+    }
+
+    75%{
+        transform: rotate(5deg);
+    }
+
+    100%{
+        transform: rotate(-5deg);
+    }
+
 
 }
 
