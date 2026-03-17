@@ -7,6 +7,7 @@ import { Maps } from "./components/layouts/maps";
 import { Footer } from "./components/layouts/footer";
 import { Enemys } from "./components/layouts/enemy";
 import { DialogMarIA } from "./components/layouts/dialogMarIA";
+import { MariaGo } from "./components/layouts/maria-go";
 function App() {
  
 
@@ -18,6 +19,7 @@ function App() {
 <Maps />
 <Enemys />
 <Cards/>
+<MariaGo/>
 <DialogMarIA/>
 <Questions_space/>
 <Footer/>
