@@ -1,6 +1,7 @@
 import './style.css';
 import mobile from "../../../assets/images/celular-mobile.svg"
 import logo from "../../../assets/images/logo-marIA-GO.svg"
+import flores from "../../../assets/images/flores (2).svg"
 
 export const MariaGo = () => {
     return (
@@ -16,6 +17,7 @@ export const MariaGo = () => {
                     </div>
                 </article>
             </section>
+            <img className='flores' src={flores} alt="" />
         </main>
     )
 }
