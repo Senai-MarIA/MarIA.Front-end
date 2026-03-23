@@ -1,6 +1,6 @@
 @import url(../../../index.css);
 
-main {
+.background-gradient {
     display: flex;
     flex-direction: column;
     width: 100%;
