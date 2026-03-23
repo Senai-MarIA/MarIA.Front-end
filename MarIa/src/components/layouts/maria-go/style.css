@@ -61,4 +61,18 @@ main {
     color: white;
     box-shadow: 3px 3px 3px #8975C3;
     cursor: pointer;
+    z-index: 3;
+}
+
+.description button:hover {
+    background-color: #7e6bb7; 
+    transform: translateY(-1px); 
+    box-shadow: 0 6px 12px rgba(203, 69, 240, 0.3);
+}
+
+.description button a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family-inter);
+    cursor: pointer;
 }

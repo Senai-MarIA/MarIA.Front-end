@@ -13,7 +13,7 @@ export const MariaGo = () => {
                     <img src={logo} alt="" />
                     <div className='description'>
                         <p>  Sabe aquele móvel velho ou entulho que você não sabe como descartar? A marIA GO simplifica tudo para você. Com apenas o seu CEP, nossa inteligência localiza os pontos de descarte e os horários dos catabagulhos mais próximos da sua casa.</p>
-                        <button>Saiba Mais →</button>
+                        <button><a href="https://mar-ia-front-end-app-pk9m.vercel.app/">Saiba Mais →</a></button>
                     </div>
                 </article>
             </section>
