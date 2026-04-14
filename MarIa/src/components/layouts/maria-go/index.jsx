@@ -8,7 +8,7 @@ export const MariaGo = () => {
 
         <main className='background-gradient'>
             <section className='section-go'>
-                <img src={mobile} alt="" />
+                <img className='mobile' src={mobile} alt="" />
                 <article className='wrapper-description'>
                     <img src={logo} alt="" />
                     <div className='description'>
